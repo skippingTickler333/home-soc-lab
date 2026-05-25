@@ -5,7 +5,7 @@ Wazuh SIEM with Windows and Linux endpoints, attack simulations against MITRE AT
 ## Status
 
 - [x] Phase 1 — Wazuh manager deployment (manager + indexer + dashboard) - Done
-- [-] Phase 2 — Endpoint enrollment (Windows + Sysmon, Linux + auditd) - In Progress
+- [ ] Phase 2 — Endpoint enrollment (Windows + Sysmon, Linux + auditd) - In Progress
 - [ ] Phase 3 — Attack simulation and detection engineering
 - [ ] Phase 4 — Sigma rule authoring and ATT&CK coverage mapping
 
@@ -21,10 +21,10 @@ Full topology, network rationale, and resource allocations in [ARCHITECTURE.md](
 
 ## Repo layout
 
-| `installation/` | Step-by-step walkthroughs for each component, including problems encountered and how I solved them |
-| `rules/`        | Custom Wazuh detection rules (coming in Phase 3) |
-| `detections/`   | Per-technique writeups: hypothesis, simulation, rule, FP considerations (coming in Phase 3) |
-| `docs/`         | Architecture diagrams and supporting material |
+- installation/: Step-by-step walkthroughs for each component, including problems encountered and how I solved them 
+- rules/: Custom Wazuh detection rules (coming in Phase 3) 
+- detections/: Per-technique writeups: hypothesis, simulation, rule, FP considerations (coming in Phase 3) 
+- docs/: Architecture diagrams and supporting material
 
 ## Background
 
