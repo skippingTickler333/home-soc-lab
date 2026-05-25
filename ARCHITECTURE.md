@@ -24,10 +24,11 @@ Only waz-mgr VM has three adapters, the vboxnet0 host-only network is only for e
 
 ## VMs
 
-| VM                | Role              | OS                                    | RAM | vCPU | Disk | lab-net IP
-| `waz-mgr`         | SIEM              | Ubuntu Server 22.04 LTS               | 8 GB | 4 | 50 GB | 192.168.50.10
-| `win-endpoint-01` | Windows endpoint  | Windows 10 IoT Enterprise LTSC 2021   | 4 GB | 4 | 50 GB | 192.168.50.20
-| `lin-endpoint-01` | Linux endpoint    | Ubuntu Desktop 24.04 LTS              | 4 GB | 4 | 30 GB | 192.168.50.30
+VM                | Role              | OS                                    | RAM | vCPU | Disk | lab-net IP
+
+- waz-mgr         | SIEM              | Ubuntu Server 22.04 LTS               | 8 GB | 4 | 50 GB | 192.168.50.10
+- win-endpoint-01 | Windows endpoint  | Windows 10 IoT Enterprise LTSC 2021   | 4 GB | 4 | 50 GB | 192.168.50.20
+- lin-endpoint-01 | Linux endpoint    | Ubuntu Desktop 24.04 LTS              | 4 GB | 4 | 30 GB | 192.168.50.30
 
 ## Software stack
 
